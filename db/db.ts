@@ -33,7 +33,7 @@ import {
   type InsertAlertRule,
   type ActivityLog,
   type InsertActivityLog,
-} from "../drizzle/schema";
+} from "./schema";
 import { ENV } from "./_core/env";
 
 let _db: ReturnType<typeof drizzle> | null = null;

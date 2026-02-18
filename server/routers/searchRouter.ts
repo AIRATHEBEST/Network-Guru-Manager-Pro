@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { publicProcedure, router, protectedProcedure } from "./_core/trpc";
+import { publicProcedure, router, protectedProcedure } from "../_core/trpc";
 
 // Advanced Search Router
 export const searchRouter = router({
