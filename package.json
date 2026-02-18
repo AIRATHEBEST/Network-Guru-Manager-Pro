@@ -1,0 +1,40 @@
+{
+  "name": "network-guru-manager-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIRATHEBEST/Network-Guru-Manager-Pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AIRATHEBEST/Network-Guru-Manager-Pro/issues"
+  },
+  "homepage": "https://github.com/AIRATHEBEST/Network-Guru-Manager-Pro#readme",
+  "description": "",
+  "devDependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "@trpc/client": "^11.10.0",
+    "@trpc/react-query": "^11.10.0",
+    "@trpc/server": "^11.10.0",
+    "@types/react": "^19.2.14",
+    "@types/react-native": "^0.72.8",
+    "expo": "^54.0.33",
+    "expo-router": "^6.0.23",
+    "react": "^19.2.4",
+    "react-native": "^0.84.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "dependencies": {
+    "expo-notifications": "^0.32.16"
+  }
+}
